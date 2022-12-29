@@ -11,7 +11,7 @@ const Navbar = ({darkMode, setDarkMode}) => {
   }
 
   return (
-    <div className={`${darkMode?'bg-black':'bg-gray-200'} ${darkMode?'text-white':'text-black'} flex relative drop-shadow-md `}>
+    <div className={`${darkMode?'bg-black':'bg-gray-300'} ${darkMode?'text-white':'text-black'} flex relative drop-shadow-md `}>
       {darkMode?(<div className="py-4 ml-[7%] ">
         <svg
           width="38"

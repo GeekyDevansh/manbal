@@ -1,0 +1,139 @@
+[
+    {
+        "country": "Afghanistan",
+        "religion": "Islam",
+        "density": 56.93776001,
+        "continent": "Asia"
+    },
+    {
+        "country": "Albania",
+        "religion": "Islam",
+        "density": 104.6122628,
+        "continent": "Europe"
+    },
+    {
+        "country": "Algeria",
+        "religion": "Islam",
+        "density": 17.73007507,
+        "continent": "Africa"
+    },
+    {
+        "country": "American Samoa",
+        "religion": "Christianity",
+        "density": 277.325,
+        "continent": "Oceania"
+    },
+    {
+        "country": "Andorra",
+        "religion": "Christianity",
+        "density": 163.8425532,
+        "continent": "Europe"
+    },
+    {
+        "country": "Angola",
+        "religion": "Christianity",
+        "density": 24.71305206,
+        "continent": "Africa"
+    },
+    {
+        "country": "Anguilla",
+        "religion": "Christianity",
+        "density": 167,
+        "continent": "North America"
+    },
+    {
+        "country": "Antigua and Barbuda",
+        "religion": "Christianity",
+        "density": 218.8318182,
+        "continent": "North America"
+    },
+    {
+        "country": "Argentina",
+        "religion": "Christianity",
+        "density": 16.2585101,
+        "continent": "South America"
+    },
+    {
+        "country": "Armenia",
+        "religion": "Christianity",
+        "density": 103.6802248,
+        "continent": "Asia"
+    },
+    {
+        "country": "Aruba",
+        "religion": "Christianity",
+        "density": 588.0277778,
+        "continent": "North America"
+    },
+    {
+        "country": "Australia",
+        "religion": "Christianity",
+        "density": 3.249129487,
+        "continent": "Oceania"
+    },
+    {
+        "country": "Austria",
+        "religion": "Christianity",
+        "density": 107.2069267,
+        "continent": "Europe"
+    },
+    {
+        "country": "Azerbaijan",
+        "religion": "Islam",
+        "density": 120.2653199,
+        "continent": "Asia"
+    },
+    {
+        "country": "Bahamas",
+        "religion": "Christianity",
+        "density": 38.52547453,
+        "continent": "North America"
+    },
+    {
+        "country": "Bahrain",
+        "religion": "Islam",
+        "density": 2017.2737,
+        "continent": "Asia"
+    },
+    {
+        "country": "Bangladesh",
+        "religion": "Islam",
+        "density": 1239.579312,
+        "continent": "Asia"
+    },
+    {
+        "country": "Barbados",
+        "religion": "Christianity",
+        "density": 666.6069767,
+        "continent": "North America"
+    },
+    {
+        "country": "Belarus",
+        "religion": "Christianity",
+        "density": 46.7287999,
+        "continent": "Europe"
+    },
+    {
+        "country": "Belgium",
+        "religion": "Christianity",
+        "density": 377.2149273,
+        "continent": "Europe"
+    },
+    {
+        "country": "Belize",
+        "religion": "Christianity",
+        "density": 16.79399386,
+        "continent": "North America"
+    },
+    {
+        "country": "Benin",
+        "religion": "Christianity",
+        "density": 101.8539198,
+        "continent": "Africa"
+    },
+    {
+        "country": "Bermuda",
+        "religion": "Christianity",
+        "density": 1184.592572,
+        "continent": "North America"
+    }]

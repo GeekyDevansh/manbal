@@ -6,9 +6,7 @@ import FormControl from "@mui/material/FormControl";
 import Select, { SelectChangeEvent } from "@mui/material/Select";
 import { grey } from "@mui/material/colors";
 
-const Filters = ({darkMode}) => {
-  const [filter1, setFilter1] = useState("");
-  const [filter2, setFilter2] = useState("");
+const Filters = ({darkMode,setFilter1,filter1,setFilter2,filter2}) => {
 
   const handleChange1 = (event) => {
     setFilter1(event.target.value);
@@ -19,12 +17,12 @@ const Filters = ({darkMode}) => {
 
   return (
     <>
-      <div className={`${darkMode?'bg-black':'bg-gray-200'} ${darkMode?'text-white':'text-black'} rounded-sm drop-shadow-md `}>
+      <div className={`${darkMode?'bg-black':'bg-gray-300'} ${darkMode?'text-white':'text-black'} rounded-sm drop-shadow-md `}>
         <div className="border-solid border-b-2 border-b-[#BDBDBD] w-full py-3 pl-4 text-sm">
           Filters
         </div>
         {darkMode?(<div className="py-5 pl-4 text-xs font-extralight ">
-          Filter
+          Religion
           <Box sx={{ minWidth: 120, marginRight: 10 }}>
             <FormControl fullWidth size="small">
               
@@ -51,14 +49,13 @@ const Filters = ({darkMode}) => {
                 <MenuItem value="">
                   <em>Select</em>
                 </MenuItem>
-                <MenuItem value={10}>Ten</MenuItem>
-                <MenuItem value={20}>Twenty</MenuItem>
-                <MenuItem value={30}>Thirty</MenuItem>
+                <MenuItem value={'Christianity'}>Christianity</MenuItem>
+                <MenuItem value={'Islam'}>Islam</MenuItem>
               </Select>
             </FormControl>
           </Box>
         </div>):(<div className="py-5 pl-4 text-xs font-extralight ">
-          Filter
+          Religion
           <Box sx={{ minWidth: 120, marginRight: 10 }}>
             <FormControl fullWidth size="small">
               
@@ -82,16 +79,15 @@ const Filters = ({darkMode}) => {
                 <MenuItem value="">
                   <em>Select</em>
                 </MenuItem>
-                <MenuItem value={10}>Ten</MenuItem>
-                <MenuItem value={20}>Twenty</MenuItem>
-                <MenuItem value={30}>Thirty</MenuItem>
+                <MenuItem value={'Christianity'}>Christianity</MenuItem>
+                <MenuItem value={'Islam'}>Islam</MenuItem>
               </Select>
             </FormControl>
           </Box>
         </div>)}
         
         {darkMode?(<div className="py-5 pl-4 text-xs font-extralight ">
-          Filter
+          Continent
           <Box sx={{ minWidth: 120, marginRight: 10 }}>
             <FormControl fullWidth size="small">
               <Select
@@ -117,14 +113,17 @@ const Filters = ({darkMode}) => {
                 <MenuItem value="">
                   <em>Select</em>
                 </MenuItem>
-                <MenuItem value={10}>Ten</MenuItem>
-                <MenuItem value={20}>Twenty</MenuItem>
-                <MenuItem value={30}>Thirty</MenuItem>
+                <MenuItem value={'Asia'}>Asia</MenuItem>
+                <MenuItem value={'Europe'}>Europe</MenuItem>
+                <MenuItem value={'Africa'}>Africa</MenuItem>
+                <MenuItem value={'Oceania'}>Oceania</MenuItem>
+                <MenuItem value={'North America'}>North America</MenuItem>
+                <MenuItem value={'South America'}>South America</MenuItem>
               </Select>
             </FormControl>
           </Box>
         </div>):(<div className="py-5 pl-4 text-xs font-extralight ">
-          Filter
+          Continent
           <Box sx={{ minWidth: 120, marginRight: 10 }}>
             <FormControl fullWidth size="small">
               <Select
@@ -147,9 +146,12 @@ const Filters = ({darkMode}) => {
                 <MenuItem value="">
                   <em>Select</em>
                 </MenuItem>
-                <MenuItem value={10}>Ten</MenuItem>
-                <MenuItem value={20}>Twenty</MenuItem>
-                <MenuItem value={30}>Thirty</MenuItem>
+                <MenuItem value={'Asia'}>Asia</MenuItem>
+                <MenuItem value={'Europe'}>Europe</MenuItem>
+                <MenuItem value={'Africa'}>Africa</MenuItem>
+                <MenuItem value={'Oceania'}>Oceania</MenuItem>
+                <MenuItem value={'North America'}>North America</MenuItem>
+                <MenuItem value={'South America'}>South America</MenuItem>
               </Select>
             </FormControl>
           </Box>
