@@ -89,14 +89,14 @@ const Search = ({ darkMode, filter1, filter2 }) => {
               Clear
             </button>
           )}
-        </div>
+        
         {filteredData.length != 0 && isOpen && (
           <div
             className={`${darkMode ? "bg-white" : "bg-black"} ${
               darkMode ? "bg-opacity-90" : "bg-opacity-90"
             } md:mt-2  p-3 ${
               darkMode ? "text-black" : "text-white"
-            } md:w-[15%] z-10 md:h-[18%] h-[16%] overflow-y-auto absolute md:top-[25%] top-[60%] w-[60%] rounded-xl`}
+            } md:w-[15%] z-10 md:h-[18%] h-[16%] overflow-y-auto absolute md:top-[25%] mt-[11%] ml-1 w-[60%] rounded-xl`}
           >
             {filteredData.map((value) => {
               return (
@@ -106,7 +106,7 @@ const Search = ({ darkMode, filter1, filter2 }) => {
                     darkMode ? "hover:bg-black" : "hover:bg-white"
                   } ${
                     darkMode ? "hover:bg-opacity-70" : "hover:bg-opacity-50"
-                  } ${darkMode ? "hover:text-white" : "hover:text-black"}`}
+                  } ${darkMode ? "hover:text-white" : "hover:text-black"} rounded-md`}
                   onClick={handleOnClick}
                 >
                   {value.country}{" "}
@@ -116,7 +116,7 @@ const Search = ({ darkMode, filter1, filter2 }) => {
           </div>
         )}
       </div>
-
+      </div>
       <div
         className={`${darkMode ? "bg-black" : "bg-gray-300"} ${
           darkMode ? "text-white" : "text-black"
