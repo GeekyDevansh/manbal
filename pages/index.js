@@ -4,7 +4,7 @@ import Search from '../components/Search'
 
 
 
-const index = ({darkMode}) => {
+const Index = ({darkMode}) => {
 
   const[filter1,setFilter1] = useState('')
   const[filter2,setFilter2] = useState('')
@@ -25,4 +25,4 @@ const index = ({darkMode}) => {
   )
 }
 
-export default index
+export default Index
