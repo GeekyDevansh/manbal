@@ -101,6 +101,7 @@ const Search = ({ darkMode, filter1, filter2 }) => {
             {filteredData.map((value) => {
               return (
                 <p
+                  key={value.country}
                   className={`hover:cursor-pointer ${
                     darkMode ? "hover:bg-black" : "hover:bg-white"
                   } ${
